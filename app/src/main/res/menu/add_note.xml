@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/cancel"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_clear_white_24dp"
+        android:title="@string/cancel"/>
+
+    <item
+        android:id="@+id/title"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        app:actionViewClass="nncb.kimxu.vck.widget.MenuView"
+        android:title="@string/title"/>
+
+    <item
+        android:id="@+id/submit"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:title="@string/submit"/>
+
+</menu>

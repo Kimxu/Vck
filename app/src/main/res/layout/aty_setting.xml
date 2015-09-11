@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kim="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+    <nncb.kimxu.vck.widget.SettingLayout
+        android:id="@+id/set_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        kim:hasChecked="false"
+        kim:text="设置" />
+
+    <nncb.kimxu.vck.widget.SettingLayout
+        android:id="@+id/set_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <nncb.kimxu.vck.widget.SettingLayout
+        android:id="@+id/set_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <nncb.kimxu.vck.widget.SettingLayout
+        android:id="@+id/set_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:onClick="bTlogout"
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/background_blue"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:text="退出登录" />
+</LinearLayout>

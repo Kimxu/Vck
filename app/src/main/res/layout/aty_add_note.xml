@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_add_note"
+    android:background="@color/background_pink"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/button_material_dark"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:background="@drawable/item_bg"
+        android:layout_height="match_parent" />
+</LinearLayout>
